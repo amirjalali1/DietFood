@@ -1,0 +1,13 @@
+﻿<div data-ng-controller="HomeCtrl">
+    <ul>
+        <li  data-ng-click="$navigate.go('/mainMenu')" data-ng-repeat="name in names">{{name}}</li>
+        hiiiiiiiiiiiiiiiiiiii
+        
+    </ul>
+    <a ng-click="slidePage('#/mainMenu')" ng-init="count=0">main</a>
+    <!--<a ng-click="slidePage('/mainMenu')" ng-init="count=0">mssssssssssssssain</a>-->
+    <a ng-click="$navigate.go('#/mainMenu')">First Page</a>
+ <!--   <a href="#/mainMenu" ng-init="count=0">mainaaaaaaaaaaaaaaaaaaaaa</a>-->
+    <a >main</a>
+      count: {{count}}
+</div>

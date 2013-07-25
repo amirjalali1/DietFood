@@ -55,8 +55,22 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />-->
+    <Folder Include="font\" />
+    <Folder Include="img\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\mobile-nav.css" />
+    <Content Include="Index.html" />
+    <Content Include="js\app.js" />
+    <Content Include="js\controllers.js" />
+    <Content Include="js\services.js" />
+    <Content Include="lib\angular-mobile.js" />
+    <Content Include="lib\angular-mobile.min.js" />
+    <Content Include="lib\angular.js" />
+    <Content Include="lib\angular.min.js" />
+    <Content Include="lib\mobile-nav.js" />
+    <Content Include="partials\homeView.html" />
+    <Content Include="partials\menueView.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
