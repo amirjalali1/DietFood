@@ -12,3 +12,25 @@ app.factory('navSvc', function ($navigate) {
         }
     };
 });
+
+app.factory('DietFoodDb', function () {
+    'use strict';
+    var dietFoods = [
+     {
+         id: 1,
+         FoodName: "قرمه سبزی",
+         recepie: "ابتدا آب را گرم کرده"
+     }
+    ];
+    return {
+        getListOfFoods : function() {
+            return dietFoods;
+        }
+    };
+        
+    
+
+
+ 
+
+});
